@@ -1,0 +1,6 @@
+ Para fazer um novo deploy, você só precisa executar os seguintes comandos:
+
+   1. npm run build (para gerar os arquivos do site)
+   2. npx wrangler pages deploy (para publicar no Cloudflare Pages)
+
+  O Wrangler usará automaticamente as configurações do wrangler.toml e do .env.
