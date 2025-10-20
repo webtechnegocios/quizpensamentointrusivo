@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import type { LucideIcon } from "lucide-react";
+import Link from "next/link";
 import {
   Activity,
   AlertTriangle,
@@ -521,7 +522,11 @@ function VideoScreen({ ctaVisible }: VideoScreenProps) {
 function Footer() {
   return (
     <footer className="footer">
-      <span>Dr. Jô Furlan – Todos os direitos reservados – Política de Privacidade – Termos de Uso</span>
+      <span>
+        Dr. Jô Furlan – Todos os direitos reservados –{" "}
+        <Link href="/politica-de-privacidade">Política de Privacidade</Link> –{" "}
+        <Link href="/termos-de-uso">Termos de Uso</Link>
+      </span>
     </footer>
   );
 }
