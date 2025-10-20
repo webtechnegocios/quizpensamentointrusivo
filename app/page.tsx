@@ -327,8 +327,7 @@ const QUESTIONS: Question[] = [
 
 const TRANSITION_DELAY_MS = 3000;
 const CTA_DELAY_MS = 135000; // 2 minutes and 15 seconds
-const VIDEO_URL =
-  "https://www.youtube.com/embed/SEU_VIDEO_AQUI?autoplay=1&controls=0&rel=0&modestbranding=1";
+const VIDEO_URL = "https://player.vimeo.com/video/1128914947?autoplay=1";
 const CTA_URL = "https://curso.pensamentointrusivo.com.br/";
 
 type Stage = "welcome" | "quiz" | "transition" | "video";
